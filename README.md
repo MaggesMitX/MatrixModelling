@@ -100,8 +100,8 @@ Online References:
  With an SPI interface there is always one master device (the Arduino) that controls the peripheral devices (also known as slaves). You can control the display either through the Arduino’s AVR microcontroller hardware SPI interface or three arbitrary digital pins (software SPI).
 
 The hardware SPI pins (MOSI, MISO, and SCK) are at a specific location on each Arduino board. This interface is faster than using software SPI, but you will need to use the following fixed output pins:
-| Board | MOSI | MISO | SCK | Level |
-| Aduino Uno | 11 or ICSP-4 |	12 or ICSP-1 |	13 or ICSP-3 |	5 V
+ | Board | MOSI | MISO | SCK | Level |
+ | Aduino Uno | 11 or ICSP-4 |	12 or ICSP-1 |	13 or ICSP-3 |	5 V
  -
  To control MAX7219 displays you only need to make three connections:
 
