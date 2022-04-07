@@ -15,12 +15,13 @@ Raspberry Pi:
 sudo apt-get install python-dev python-pip
 ```
 
-- ```sh
+```sh
 sudo pip install max7219
 ```
 
 
 - Or alternative clone from github.com:
+
 ```sh
 git clone https://github.com/rm-hull/max7219.git
 ```
