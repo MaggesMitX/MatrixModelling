@@ -49,13 +49,12 @@ sudo python setup.py install
 
 The GPIO pin-outs are connect as showed:
 
-|Board Pin | Name | Remarks | RPiPin | RPi | Function|
-
- |1	        |VCC	    |+5V Power	   |2	    |5V0        | +V|
- |2	        |GND	      |Ground	   |6	    |GND        |-V|
- |3	        |DIN	      |Data In	   |19	    |GPIO 10    |(MOSI)|
- |4	        |CS	      |Chip Select     |24	    |GPIO 8     |(SPI CE0)|
- |5	        |CLK	      |Clock	   |23      |GPIO 11    |(SPI CLK)|
+|Board Pin | Name | Remarks   |  RPiPin | RPi   | Function|
+|1	        |VCC  |+5V Power  |2	    |5V0    | +V      |
+|2	        |GND  |Ground	  |6	    |GND    |-V       |
+|3	        |DIN  |Data In	  |19	    |GPIO 10|(MOSI)   |
+|4	        |CS	  |Chip Select|24	    |GPIO 8 |(SPI CE0)|	     
+|5          |CLK  |Clock	  |23       |GPIO 11|(SPI CLK)|
 
 
  Pre-requisites:
