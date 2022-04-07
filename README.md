@@ -1,5 +1,5 @@
 # MatrixModelling
-repository about planing and programming my Matrix Project
+A repository about planing and programming my Matrix Project
 I will program the codes once for Raspberry Pi and for Arduino
 
 
