@@ -10,25 +10,25 @@ Helped Sites:
 
 Raspberry Pi:
 -
-Library installation:
-$ sudo apt-get install python-dev python-pip
-$ sudo pip install max7219
+- Library installation:
+- $ sudo apt-get install python-dev python-pip
+- $ sudo pip install max7219
 
-or alternative clone from github.com:
-$ git clone https://github.com/rm-hull/max7219.git
-$ cd max7219
-$ sudo pip install -e .
+- Or alternative clone from github.com:
+- $ git clone https://github.com/rm-hull/max7219.git
+- $ cd max7219
+- $ sudo pip install -e .
 
-For the next step you have to do some settings in ur raspbian system:
-$ cd max7219
-$ sudo apt-get install python-dev python-pip
-$ sudo pip install spidev
-$ sudo python setup.py install
+- For the next step you have to do some settings in ur raspbian system:
+- $ cd max7219
+- $ sudo apt-get install python-dev python-pip
+- $ sudo pip install spidev
+- $ sudo python setup.py install
 
-The GPIO pin-outs are connect as:
-Board Pin	Name	Remarks	     RPiPin	    RPi Function
-1	        VCC	      +5V Power	   2	    5V0
-2	        GND	      Ground	   6	    GND
-3	        DIN	      Data In	   19	    GPIO 10 (MOSI)
-4	        CS	      Chip Select  24	    GPIO 8 (SPI CE0)
-5	        CLK	      Clock	       23       GPIO 11 (SPI CLK)
+- The GPIO pin-outs are connect as:
+- Board Pin	Name	Remarks	     RPiPin	    RPi Function
+- 1	        VCC	      +5V Power	   2	    5V0
+- 2	        GND	      Ground	   6	    GND
+- 3	        DIN	      Data In	   19	    GPIO 10 (MOSI)
+- 4	        CS	      Chip Select  24	    GPIO 8 (SPI CE0)
+- 5	        CLK	      Clock	       23       GPIO 11 (SPI CLK)
